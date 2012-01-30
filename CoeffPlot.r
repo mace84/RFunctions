@@ -30,6 +30,7 @@ CoeffPlot <- function(model,sig=F,alpha=.05,varnames=names(coef)){
     p <- p + geom_linerange(aes(x=x,y=coef,ymin=ci_lower99, ymax=ci_upper99),color="blue",alpha=.8)
     p <- p + geom_hline(yintercept=0,lty=2,colour="darkgray",size=1.1) + xlab("") + ylab("Estimates")
     p <- last_plot() + coord_flip() + theme_bw()
+    p <- p + opts(axis.title.x =theme_text(size = 10))
     return(p)
 }
 
