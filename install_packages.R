@@ -6,9 +6,9 @@
 packages <- c(# general stuff 
               "foreign" , "xtable" , "reshape"
               # Analysis
-              , "MASS" , "Zelig" , "Amelia" , "gamlss" , "pcse" , "car", "lmtest"              
+              , "MASS" , "Zelig" , "Amelia" , "gamlss" , "pcse" , "car", "lmtest", "Hmisc"              
               # graphics
-              , "ggplot2" , "tikzDevice", "ROCR", "sparationplot"
+              , "ggplot2" , "tikzDevice", "ROCR", "sparationplot", "latticeExtra", "gridExtra"
               # Bayesian analysis
               , "coda" , "MCMCpack" , "R2jags"
               # data sources
