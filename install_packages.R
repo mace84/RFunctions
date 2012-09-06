@@ -11,6 +11,8 @@ packages <- c(# general stuff
               ,"caret"
               # graphics
               , "ggplot2" , "tikzDevice", "ROCR", "sparationplot", "latticeExtra", "gridExtra"
+              , "maps", "mapproj", "maptools", "gpclib"
+              , "RColorBrewer"
               # Bayesian analysis
               , "coda" , "MCMCpack" , "R2jags"
               # data sources
